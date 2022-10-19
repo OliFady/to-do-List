@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1c76c4;
+  border-radius: 30px;
+
+}
+
+.navbar-items{
+   float: left;
+}
+
+.navbar-items a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar-items a:hover{
+  background-color: #111;
+}

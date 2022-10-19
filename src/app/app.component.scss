@@ -1,0 +1,35 @@
+.d1{
+  width: 800px;
+}
+.todo-body{
+  display:flex;
+  justify-content: center;
+   width:100%;
+  margin-top: 100px;
+}
+.todo-input{
+  padding: 12px 10px;
+  width: 50%;
+  border-width: 5px;
+  border-radius: 12px;
+  border-color: #1c76c4 ;
+}
+.todo-butto{
+  position: relative;
+  width: 10%;
+  border-radius: 10px;
+  border-width: 5px;
+  margin-left: -74px;
+  border-color: #1c76c4 ;
+}
+.items{
+  background-color: bisque;
+
+}
+.items-index{
+
+  text-decoration:solid;
+}
+.todo-bo-list{
+  position: relative;
+}

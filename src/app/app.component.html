@@ -1,6 +1,14 @@
 <div>
 
-
+  <div class="todo-body">
+    <input class="todo-input" type="text" placeholder="ToDo....." [(ngModel)]="todoS" >
+    <button class="todo-butto" (click)="addToList()" >Add</button>
+  </div>
+  <div class="todo-body-list" *ngIf="list.length">
+    <ul class="items" *ngFor="let item of list  index as i">
+      <li class="items-index">{{item}} {{i}} <button (click)=" removeFromList(i)">remove</button></li>
+    </ul>
+  </div>
 </div>
 
-<router-outlet></router-outlet>
+
